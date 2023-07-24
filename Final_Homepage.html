@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoping-Kart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href=".//css/style.css">
+
+<link rel="stylesheet" href=".//final.js">
+<link rel="stylesheet" href=".//cart1.html">
+<link rel="stylesheet" href=".//cartfinal.html">
+
+<script>
+  function addtocart(){
+    alert("The product has been added to the Shoping kart ")
+  }
+
+  
+    
+</script>
+  
+
+
+
+</head>
+<body>
+    <h1>Welcome to Shoping-Kart</h1>
+    <header>
+ 
+    <div class="card">
+                
+        <img src=".//images/Iphone.jpg"  alt="image not found">
+        <div class="card-body" >
+            <h class="cut">₹ 1,89,000</h>
+            <h4 class="card-title">1,49,500</h4>
+           
+            <p class="card-text">Apple Iphone 14 Pro Max (256 GB)</p>
+            <button class="btn btn-primary"><a href="https://www.amazon.in/Apple-iPhone-256GB-Deep-Purple/dp/B0BDK2FB2T/ref=sr_1_3?crid=1MOM39NF6LV59&keywords=iphone+14+pro+max&qid=1683311357&sprefix=iphone+1%2Caps%2C638&sr=8-3" style="color:white;text-decoration:none">Buy Now</a></button>
+            <button class="btn btn-primary" onclick="addtocart()"><a href="cart1.html" style="color:white;text-decoration:none">Add to Cart </a></button>
+            <a href="cartfinal.html" ><i class='bx bxs-shopping-bag-alt bx-sm' onclick="addCart('Iphone ',1,49,500,'iphone.jpg')" id="cl"></i></a>
+
+        </div>
+    </div>
+    
+    <div class="card">
+                
+        <img src="../images/redmi.jpg"  alt="image not found">
+        <div class="card-body" >
+            <h class="cut">₹ 27,000</h>
+            <h4 class="card-title">23,000</h4>
+           
+            <p class="card-text">Redmi Note 12 5G 128GB  108MP AI Camara</p>
+            <button class="btn btn-primary"><a href="https://www.amazon.in/Redmi-12-Pro-5G-Glacier/dp/B0BRVFZSGV/ref=sr_1_1?crid=2S56XR2UMZX7&keywords=mi+note+12+pro&qid=1683311314&sprefix=mi+nite+12+pro+%2Caps%2C380&sr=8-1" style="color:white;text-decoration:none">Buy Now</a></button>
+            <button class="btn btn-primary" onclick="addtocart()"><a href="cart1.html" style="color:white;text-decoration:none">Add to Cart </a></button>
+       
+        </div>
+    </div>
+    
+    <div class="card">
+    <img src=".//images/oneplus.jpg"  alt="image not found">
+    <div  class="card-body">
+        <h class="cut">₹ 80,000</h>
+        <h4 class="card-title">50,000 ₹</h4>
+        <p class="card-text">One Plus Nord CE 2 Lite 5G 126GB</p>
+        <button class="btn btn-primary"><a href="https://www.amazon.in/Renewed-OnePlus-Shadow-128GB-Storage/dp/B0B9FWSTJX/ref=sr_1_13?crid=O0QO7VUQB8Q&keywords=One+plus+nord+ce2-lite&qid=1683311118&sprefix=one+plus+nord+ce2-lite%2Caps%2C261&sr=8-13"style="color:white;text-decoration:none">Buy Now</a> </button>
+        <button class="btn btn-primary" onclick="addtocart()"><a href="cart1.html" style="color:white;text-decoration:none">Add to Cart </a></button>
+     
+    </div>    
+    </div>
+    
+    <div class="card">
+        <img src=".//images/samsung.jpg" alt="image not found">
+        <div  class="card-body">
+            <h class="cut">₹ 1,40,000</h>
+            <h4 class="card-title"> ₹1,22,000  </h4>
+            <p class="card-text">Samsung S22 Ultra 5G 512GB</p>
+            <button class="btn btn-primary"><a href="https://www.amazon.in/Samsung-Galaxy-Ultra-Green-Storage/dp/B0BT9G7RYH/ref=sr_1_14?crid=21IC5JBF9Z2G5&keywords=samsung+s22+ultra&qid=1683310972&sprefix=samsung+s22+ultra+%2Caps%2C345&sr=8-14" style="color:white;text-decoration:none">Buy Now</a> </button>
+            
+            <button class="btn btn-primary" onclick="addtocart('Product Name', Price)"><a href="cart1.html" style="color:white;text-decoration:none">Add to Cart </a></button>
+    
+        </div>    
+        </div>
+
+    <div class="card">
+    <img src=".//images/menjacket.webp"  alt="image not found">
+        <div  class="card-body">
+            <h class="cut"> ₹2,800 </h>
+            <h4 class="card-title">2,500 ₹</h4>
+            <p class="card-text">Peter England Men Blazer Slim Fit</p>
+            <button class="btn btn-primary"><a href="https://www.amazon.in/Peter-England-Mens-Blazer-PIBZSNSBS78506_MediumBlue80_44/dp/B0B2K5V3B7/ref=sr_1_7?crid=CEQOJKWQUBR4&keywords=blazers+for+men&qid=1683348925&sprefix=blazers+for+men%2Caps%2C363&sr=8-7" style="color:white;text-decoration:none;">Buy Now</a></button>
+            <button class="btn btn-primary"onclick="addtocart('Product Name', Price)"><a href="cart1.html" style="color:white;text-decoration:none">Add to Cart </a></button>
+  
+        </div>  
+    </div>
+
+    <div class="card">
+        <img src=".//images/peterengland1.webp"  alt="image not found">
+            <div  class="card-body">
+                <h class="cut">869 ₹</h>
+                <h4 class="card-title">569 ₹</h4>
+                <p class="card-text">Dennis Lingo  Mens Slim Fit</p>
+                <button class="btn btn-primary"><a href="https://www.amazon.in/Dennis-Lingo-Casual-C301_SkyBlue_M_Sky-Blue_M/dp/B079SLJPT1/ref=sr_1_7?crid=3MH466OPGPTO3&keywords=men+casual+shirts&qid=1683351549&sprefix=men+casual+shirts+%2Caps%2C337&sr=8-7" style="color:white;text-decoration:none;">Buy Now</a></button>
+                <button class="btn btn-primary"onclick="addtocart('Product Name', Price)"><a href="cart1.html" style="color:white;text-decoration:none">Add to Cart </a></button>
+         
+            </div>  
+        </div>
+    
+    <div class="card">
+        <img src=".//images/tanjiro.jpg"  alt="image not found">
+            <div  class="card-body">
+                <h class="cut">₹ 2000</h>
+                <h4 class="card-title">₹ 1699 </h4>
+                <p class="card-text">Tanjiro printed T-Shirts</p>
+                <button class="btn btn-primary"><a href="https://www.amazon.in/DUDEME-Tanjiro-Breathing-Bio-Washed-XX-Large/dp/B0BYNV51WT/ref=sr_1_48?crid=1XJ8NK09UP629&keywords=tanjiro+tshirt&qid=1688406439&sprefix=tanjiro%2Caps%2C221&sr=8-48" style="color:white;text-decoration:none;">Buy Now</a></button>
+                <button class="btn btn-primary"onclick="addtocart('Product Name', Price)"><a href="cart1.html" style="color:white;text-decoration:none">Add to Cart </a></button>
+        
+            </div>  
+        </div>
+       
+              <div class="card">
+        <img src=".//images/pumasneakers.webp"  alt="image not found">
+            <div  class="card-body">
+                <h class="cut">₹ 5999</h>
+                <h4 class="card-title">₹ 5500</h4>
+                <p class="card-text">PUMA  BMW White Sneakers , with soft form </p>
+                <button class="btn btn-primary"><a href="https://www.amazon.in/Puma-Unisex-Adult-ZenonSpeed-White-Black-Sneaker/dp/B0B8DHPTXK/ref=sr_1_13?crid=3DUEBJ10IC924&keywords=puma+bmw+shoes&qid=1688406375&sprefix=puma+bmw+shoes+%2Caps%2C264&sr=8-13" style="color:white;text-decoration:none;">Buy Now</a></button>
+                <button class="btn btn-primary"onclick="addtocart('Product Name', Price)"><a href="cart1.html" style="color:white;text-decoration:none">Add to Cart </a></button>
+           
+            </div>  
+        </div>
+        <div class="card">
+            <img src=".//images/nikeshoes.jpg"  alt="image not found">
+                <div  class="card-body">
+                    <h class="cut">₹ 5000</h>
+                    <h4 class="card-title">₹ 5000</h4>
+                    <p class="card-text">Nike Jordan </p>
+                    <button class="btn btn-primary"><a href="https://www.nike.com/in/t/air-jordan-1-elevate-high-shoes-rKPNHR/DN3253-500" style="color:white;text-decoration:none;">Buy Now</a></button>
+                    <button class="btn btn-primary"onclick="addtocart('Product Name', Price)"><a href="cart1.html" style="color:white;text-decoration:none">Add to Cart </a></button>
+            
+                </div>  
+            </div>
+</body>
+</html>
+
