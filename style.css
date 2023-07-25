@@ -1,0 +1,46 @@
+body{
+    background-color:goldenrod;
+     background-attachment:scroll;
+     background-clip:100%;
+     background-size:100%;
+     height:100%;
+     
+ }
+ h1{ 
+     background-color:gray;
+     color:black;
+     padding-top:40 px;
+     text-align: center;
+     position:relative;
+     opacity: .8;
+     
+ }
+
+.card{
+width:20%;
+height:10%;
+float:left;
+padding:25px;
+border-radius:25px;
+display:flex;
+}
+
+.card-title{
+ color:black;
+ text-decoration:none;
+ padding:2px;
+}
+.card-text{
+  color:black;
+  padding:2px;
+}
+.btn btn-primary{
+ width:100%;
+ align-items:center;
+ color:white;
+ text-decoration:none;
+}
+
+.card:hover{
+ padding:20px;
+}
